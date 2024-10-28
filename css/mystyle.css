@@ -45,7 +45,7 @@ a {
 /*body*/
 header.site-init {
   background-image: url('../img/header.jpg');
-  background-postion: center;
+  background-size: cover;
   height: 380px;
   color: white;
 }
@@ -70,10 +70,87 @@ h1.main-title {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  padding: 5px
 }
 .menu a:hover {
   text-decoration: underline;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.houses-items {
+  display: flex;
+  gap: 20px
+}
+
+.houses-item-txt {
+  padding: 20px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.icon-container img {
+  margin-right: 20px;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-see-details {
+  display: flex;
+  background: orange;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
 
 
+.house-box-1 {
+  border: 1px solid grey;
+  flex: 1;
+  width: 33%;
+}
+
+.house-box-1  img {
+  width: 100%;
+}
+
+.houses-and-pent-title {
+  padding: 0;
+  margin: 0;
+}
+
+.houses-container h3 {
+  font-size: 29px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.houses-container h2 {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.house-box-1 p {
+  margin: 0;
+  padding: 0;
+}
+
+.houses-container ul {
+  margin-top: 0;
+}

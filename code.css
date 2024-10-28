@@ -1,0 +1,43 @@
+/* houses */
+.houses-item {
+    background-color: #DEDEDE;
+    margin-right: 10px;
+}
+
+.houses-item-img {
+    width: 100%;
+    height: auto;
+}
+
+.houses-item-text {
+    padding: 20px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icon-container img {
+    margin-right: 20px;
+}
+
+.icons-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* utilities */
+.btn {
+    display: block;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

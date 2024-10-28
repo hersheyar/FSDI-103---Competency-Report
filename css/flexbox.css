@@ -1,0 +1,136 @@
+/* global */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --bg-blue: #0072CD;
+  --bg-yellow: #FBE892;
+ }
+
+div[class^="flex-container"] {
+  margin-bottom: 20px;
+}
+
+ h1 {
+   color: blue;
+   text-align: center;
+   padding: 20px;
+ }
+
+ p {
+   background-color: var(--bg-yellow);
+   padding: 20px;
+   font-weight: bold;
+ }
+
+ .flex-container-row-start {
+   background: var(--bg-blue);
+   display: flex;
+   justify-content: flex-start;
+   gap: 20px;
+ }
+
+  .flex-container-row-center {
+   background: var(--bg-blue);
+   display: flex;
+   justify-content: center;
+ }
+
+    .flex-container-row-end {
+   background: var(--bg-blue);
+   display: flex;
+   justify-content: flex-end;
+ }
+
+    .flex-container-row-between {
+   background: var(--bg-blue);
+   display: flex;
+   justify-content: space-between;
+ }
+
+.flex-container-row-around {
+   background: var(--bg-blue);
+   display: flex;
+   justify-content: space-around;
+ }
+
+.flex-container-row-evenly {
+   background: var(--bg-blue);
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+.flex-container-column-start {
+  background: var(--bg-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+.flex-container-column-center {
+  background: var(--bg-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-container-column-end {
+  background: var(--bg-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* this comes strech'ed from the start
+ you can use align-items: stretch;
+ */
+.flex-container-column-stretch {
+  background: var(--bg-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flex-container-row-column-1 {
+  background: var(--bg-blue);
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-container-row-column-2 {
+  background: var(--bg-blue);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-row-column-3 {
+  background: var(--bg-blue);
+  height: 200px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.flex-container-row-column-4 {
+  background: var(--bg-blue);
+  height: 200px;
+  display: flex;
+  align-items: end;
+}
+
+.flex-container-row-column-5 {
+  background: var(--bg-blue);
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+}
