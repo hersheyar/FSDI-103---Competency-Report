@@ -2,9 +2,132 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>contact</title>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 <body>
 
+  <header class="contact-header">
+    <div class="contact-header-container">
+      <div class="bar-menu">
+        <h1>RealEstate</h1>
+        <nav class="menu">
+          <a href="about.html" target="_blank">About</a>
+          <a href="blog.html" target="_blank">Blog</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-contact-container">
+    <div class="main-contact-container-h1">
+      <h1>Contact</h1>
+    </div>
+    <div class="main-contact-container-h2">
+      <h2>Fill the next information</h2>
+    </div>
+    <div class="main-contact-container-p">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Aliquid culpa dicta ipsum itaque maiores, omnis quisquam recusandae sit vitae
+      voluptatem. Autem blanditiis consequatur doloremque fugiat fugit minima ratione
+      repellendus veritatis.</p>
+    </div>
+
+    <div class="form-container">
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <div class="form-control">
+            <label for="name">Name:</label>
+            <input id="name" placeholder="Type your name here" type="text"/>
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="example@email.com">
+          </div>
+
+          <div class="form-control">
+            <label for="phone-number">Phone number:</label>
+            <input id="phone-number" type="tel">
+          </div>
+
+          <div class="form-control">
+            <label for="message">Message:</label>
+            <textarea id="message" maxlength="20"></textarea>
+          </div>
+
+        </fieldset>
+      </form>
+
+      <form>
+        <fieldset>
+          <legend>Product information</legend>
+
+            <div class="form-control">
+              <label for="type">Type:</label>
+                <select id="type">
+                  <option value="option1">--- Option 1 ---</option>
+                  <option value="option2">--- Option 2 ---</option>
+                  <option value="option3">--- Option 3 ---</option>
+                </select>
+
+            </div>
+
+            <div class="form-control">
+              <label for="number">Number:</label>
+              <input id="number" type="number" placeholder="Product Number">
+            </div>
+          </fieldset>
+        </form>
+        <form>
+        <fieldset>
+          <legend>Contact information</legend>
+
+            <div class="form-control">
+              <label for="email-dot">Email:</label>
+              <input id="email-dot" name="emaildot" type="radio">
+            </div>
+
+            <div class="form-control">
+              <label for="phone-number-dot">Phone number:</label>
+              <input id="phone-number-dot" name="Phone-number-dot" type="radio">
+            </div>
+
+           <div class="form-control">
+              <label for="date">Date:</label>
+              <input id="date" type="date">
+           </div>
+
+            <div class="form-control">
+              <label for="hour">Hour:</label>
+              <input id="hour" type="time">
+            </div>
+          </fieldset>
+        </form>
+    </div>
+  </main>
+  <hr>
+  <footer class="contact-footer-class">
+    <div>
+      <div>
+        <p>Powered by <span class="zill">Zillow</span></p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <p>Copyright 2024 <span class="priv">| Privacy Policy</span></p>
+      </div>
+    </div>
+
+    <div class="icons">
+        <i>fb</i>
+        <i>ig</i>
+        <i>yt</i>
+    </div>
+
+  </footer>
 </body>
 </html>

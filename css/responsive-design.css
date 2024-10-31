@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: coral;
+  height: 100px;
+}
+
+.aside-left {
+  background-color: yellow;
+}
+
+.content {
+  background-color: skyblue;
+  min-height: calc(100vh - 160px)
+}
+
+.aside-right {
+  background-color: pink;
+  width: 50%;
+}
+
+.footer {
+  background-color: lightgreen;
+  width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+
+/* DESKTOP First*/
+/* @media (max-width: value px) {}*/
+
+@media (max-width: 768px){
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media (max-width: 768px){
+  .header {
+    background-color: sienna;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside-left {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 768px){
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .aside-right,
+  .footer {
+    width: 100%;
+  }
+}

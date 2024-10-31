@@ -46,7 +46,8 @@ a {
 header.site-init {
   background-image: url('../img/header.jpg');
   background-size: cover;
-  height: 380px;
+  width: 100%;
+  height: 320px;
   color: white;
 }
 
@@ -122,6 +123,7 @@ h1.main-title {
   border: 1px solid grey;
   flex: 1;
   width: 33%;
+  background: #dedede;
 }
 
 .house-box-1  img {
@@ -153,4 +155,89 @@ h1.main-title {
 
 .houses-container ul {
   margin-top: 0;
+}
+
+
+
+/*contact*/
+.contact-header {
+  background-color: orange;
+  height:150px;
+  color: black;
+}
+
+.contact-header a {
+  color: black;
+}
+
+.contact-header-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bar-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.main-contact-container-h1,
+.main-contact-container-h2,
+.main-contact-container-p {
+  text-align: center;
+}
+.main-contact-container {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #dedede;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+legend{
+  font-size: 16px;
+}
+
+fieldset{
+ border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-control input,
+.form-control textarea {
+  border: none;
+  width: 70%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.form-control label {
+  display: inline-block;
+  width: 150px;
+}
+
+.contact-footer-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.zill,
+.priv {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.icons {
+  font-weight: bold;
 }
